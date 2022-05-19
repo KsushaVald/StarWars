@@ -1,0 +1,53 @@
+:root {
+  --color-hover: #9c9c9c;
+  --color-active: #323232;
+}
+
+svg path {
+  transition: fill 0.3s ease-in-out;
+}
+
+
+.btn-link {
+  display: block;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.btn-link:hover svg path{
+  fill: var(--color-hover);
+}
+
+.btn-link:active svg path{
+  fill: var(--color-active);
+}
+
+.text {
+  line-height: 200%;
+}
+
+.subheadr {
+  text-align: center;
+  font-size: 30px;
+}
+
+.list-block {
+  width: 48%;
+  height: auto;
+}
+
+.container-lists {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.episode-list {
+  height: 90%;
+}
+
+.episod-list__item {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+}
